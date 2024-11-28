@@ -1,5 +1,5 @@
 <template>
-    <article class="prose bg-white rounded-xl h-full p-8">
+  <article class="prose bg-light rounded-xl h-full p-8">
     <h1>Garlic bread with cheese: What the science tells us</h1>
     <p>
       For years parents have espoused the health benefits of eating garlic bread with cheese to

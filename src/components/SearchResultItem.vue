@@ -1,9 +1,11 @@
 <template>
-  <div class="bg-white rounded-xl w-full h-full p-8">
-    <h3>
-      <slot name="Title"></slot>
+  <div
+    class="pros prose-sm bg-light rounded-xl w-full p-4 hover:w-[calc(120%)] transition-all cursor-pointer"
+  >
+    <h2 class="m-0">
+      <slot name="title"></slot>
       test
-    </h3>
-    <slot name="Details"> </slot>
+    </h2>
+    <slot name="details"> </slot>
   </div>
 </template>

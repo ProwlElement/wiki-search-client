@@ -9,7 +9,7 @@ import TheNav from './components/TheNav.vue'
     <TheNav />
   </header>
 
-  <main class="flex justify-between gap-4">
+  <main class="flex justify-between gap-4 h-[calc(100vh-100px)]">
     <SearchResultsList />
     <SearchItemPage />
   </main>
